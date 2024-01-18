@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router';
 import { postApi } from '../../store/post/post.api';
 import { Loader } from '../../components/Loader/Loader';

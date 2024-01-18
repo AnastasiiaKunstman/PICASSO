@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { Loader } from '../../components/Loader/Loader';
 import { IPost } from '../../models/models';
 import InfiniteScroll from 'react-infinite-scroll-component';
