@@ -1,0 +1,21 @@
+.post-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.infinite-scroll-component__outerdiv {
+    display: flex;
+}
+
+.infinite-scroll-component {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
