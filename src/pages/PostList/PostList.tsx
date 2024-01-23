@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { Loader } from '../../components/Loader/Loader';
+import Loader from '../../components/Loader/Loader';
 import { IPost } from '../../models/models';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Post from '../../components/Post/Post';
@@ -41,14 +41,13 @@ const PostList: FC = () => {
     }, []);
 
     return (
-        <main className='post-list'>
-            <h1 style={{ width: 'max-content' }}>All Posts:</h1>
+        <main>
             <InfiniteScroll
                 dataLength={posts.length}
                 next={loadPosts}
                 hasMore={hasMore}
                 loader={<Loader />}
-                endMessage={<p>The end!</p>}
+                endMessage={<h2>The end!</h2>}
                 className='scroll'
             >
                 {posts?.map(post => (

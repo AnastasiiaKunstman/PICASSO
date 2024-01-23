@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 import './Loader.css';
 
-export const Loader: React.FC = () => {
+const Loader: FC = () => {
     return (
         <div className="three-body">
             <div className="three-body__dot"></div>
@@ -10,3 +10,5 @@ export const Loader: React.FC = () => {
         </div>
     )
 };
+
+export default Loader;

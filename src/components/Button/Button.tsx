@@ -1,12 +1,14 @@
-import {ReactNode} from 'react';
+import {FC} from 'react';
 import './Button.css';
 
-type PropsType = { children: ReactNode };
+type PropsType = { children: string };
 
-export const Button = ({children}:PropsType) => {
+const Button:FC<PropsType> = ({children}) => {
   return (
       <div className='button'>
         {children}
       </div>
   )
 };
+
+export default Button;

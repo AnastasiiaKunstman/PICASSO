@@ -1,0 +1,19 @@
+.footer_telegram {
+    background-image: url('../../image/telegram.svg');
+    width: 24px;
+    height: 24px; 
+}
+
+.footer_telegram:hover {
+    background-image: url('../../image/telegram-hover.svg');
+}
+
+.footer_github {
+    background-image: url('../../image/github.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.footer_github:hover {
+    background-image: url('../../image/github-hover.svg');
+}

@@ -1,14 +1,14 @@
-import React from 'react';
+import { FC } from 'react';
 import { useLocation, useNavigate } from "react-router-dom";
 import { IPost } from "../../models/models";
-import { Button } from "../Button/Button";
+import Button from "../Button/Button";
 import './Post.css';
 
 type PropsType = {
     post?: IPost;
 };
 
-const Post: React.FC<PropsType> = ({ post }) => {
+const Post: FC<PropsType> = ({ post }) => {
     const navigate = useNavigate();
     const location = useLocation();
 
