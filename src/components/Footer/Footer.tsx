@@ -5,7 +5,7 @@ const Footer: FC = () => {
     return (
         <footer>
             <a className='footer_telegram' target='_blank' rel='noreferrer' href='https://t.me/anastasiiakunstman' />
-            <a className='footer_github' target='_blank' rel='noreferrer' href='https://github.com' />
+            <a className='footer_github' target='_blank' rel='noreferrer' href='https://github.com/AnastasiiaKunstman' />
             <p>Anastasiia Kunstman х PICASSO © {new Date().getFullYear()}</p>
         </footer>
     )
